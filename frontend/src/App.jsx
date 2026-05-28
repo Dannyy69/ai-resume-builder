@@ -215,7 +215,7 @@ export default function App() {
               {step === 0 && (
                 <Section title="Personal Information" icon="👤">
                   <Grid2>
-                    <Field label="Full Name *" value={pi.full_name} onChange={v => updatePersonal("full_name", v)} placeholder="Danny Khan" />
+                    <Field label="Full Name *" value={pi.full_name} onChange={v => updatePersonal("full_name", v)} placeholder="Danny Shetty" />
                     <Field label="Email *" value={pi.email} onChange={v => updatePersonal("email", v)} placeholder="danny@email.com" />
                     <Field label="Phone *" value={pi.phone} onChange={v => updatePersonal("phone", v)} placeholder="+91 9876543210" />
                     <Field label="Location *" value={pi.location} onChange={v => updatePersonal("location", v)} placeholder="Pune, Maharashtra" />
